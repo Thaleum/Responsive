@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 150%;
+    background-color: gray;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 90px;
+
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 12px;
+}
+
+h2,h3,h4,h5,h6,p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 500px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.box{
+    height: 180px;
+    width: 100%;
+    background-color: gray;
+    margin: 50px;
+    float: left;
+    vertical-align: baseline;
+}
+
+div{
+    display: inline;
+    line-height: normal;
+    vertical-align: baseline;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+}
+
+@media screen and  (min-device-width: 800px)   {
+    .box{
+        width: 250px;
+        margin: 8px;
+
+    }
+    div{
+        display: block;
+    }
+}
